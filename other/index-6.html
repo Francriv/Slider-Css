@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Pure CSS3 Slider </title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/slider-co.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="../index.html"><img src="../img/PNG-White.png"></a>
+      </div>
+      <nav>
+        <li> <a href="https://twitter.com/francrivas" target="_blank">Twitter</a></li>
+        <li> <a href="https://www.linkedin.com/in/cesar-francisco-rivas-guzm%C3%A1n-395703161/" target="_blank">LinkedIn</a> </li>
+        <select onchange="if (this.value) window.location.href=this.value">
+          <option value="../index.html"> Default </option>
+          <option value="index-2.html"> Left to Right </option>
+          <option value="index-3.html"> Top to Bottom </option>
+          <option value="index-4.html" selected> Bottom to Top </option>
+          <option value="index-5.html" selected> light </option>
+        </select>
+      </nav>
+    </header>
+
+    <!-- Slider -->
+    <div id="slider">
+      <label>
+        <input type="checkbox" class="nex">
+        <input type="checkbox" class="prev">
+        <div class="slides">
+          <div class="slider">
+            <div class="image">
+              <img src="../img/1.jpg">
+            </div>
+          </div>
+          <div class="slider">
+            <div class="image">
+              <img src="../img/2.jpg">
+            </div>
+          </div>
+          <div class="slider">
+            <div class="image">
+              <img src="../img/3.jpg">
+            </div>
+          </div>
+          <div class="slider">
+            <div class="image">
+              <img src="../img/4.jpg">
+            </div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+
+    <footer>
+        <h1> Camara </h1>
+      </footer>
+  </body>
+</html>
